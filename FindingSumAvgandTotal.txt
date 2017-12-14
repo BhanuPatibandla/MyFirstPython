@@ -1,0 +1,10 @@
+count=0
+total=0
+while True:
+    x=input()
+    if x==0:
+        break
+    total=total+x
+    count=count+1
+    (avg)=float(total/count)
+print(avg, count, total)
